@@ -1,0 +1,1 @@
+gradle run --args='server /home/gradle/scheduler/config.yml'
