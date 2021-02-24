@@ -17,7 +17,7 @@ public class AsyncSqsClientConfiguration {
   public static final int DEFAULT_RECEIVE_WAIT_SECONDS = 5;
   public static final int DEFAULT_BULKHEAD_MAX_WAIT_MS = Integer.MAX_VALUE;
   public static final int DEFAULT_CONSUMER_CONCURRENCY = 10;
-  public static final String DEFAULT_REGION = "us-east-1";
+  public static final String DEFAULT_REGION = "ap-southeast-1";
   public static final URI DEFAULT_ENDPOINT =
       URI.create("https://sqs." + DEFAULT_REGION + ".amazonaws.com");
 

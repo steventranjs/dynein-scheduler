@@ -11,11 +11,9 @@ jobQueue: example
 scheduler:
   sqs:
     inboundQueueName: inbound
-    endpoint: 'http://localhost:4576'
   dynamoDb:
     schedulesTableName: dynein_schedules
     queryLimit: 10
-    endpoint: 'http://localhost:4569'
   workers:
     numberOfWorkers: 1
     recoverStuckJobsLookAheadMs: 60000

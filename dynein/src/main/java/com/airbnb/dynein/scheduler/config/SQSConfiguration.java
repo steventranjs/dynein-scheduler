@@ -9,7 +9,7 @@ import lombok.Value;
 
 @Value
 public class SQSConfiguration {
-  private static final String DEFAULT_REGION = "us-east-1";
+  private static final String DEFAULT_REGION = "ap-southeast-1";
 
   private String region = DEFAULT_REGION;
   private URI endpoint;

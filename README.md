@@ -15,8 +15,8 @@ To run this example, follow the following steps:
 1. Run this command to create the necessary SQS queues:
 
    ```shell script
-   aws sqs create-queue --endpoint-url http://localhost:4576 --queue-name example --region us-east-1
-   aws sqs create-queue --endpoint-url http://localhost:4576 --queue-name inbound --region us-east-1
+   aws sqs create-queue --endpoint-url http://localhost:4576 --queue-name example --region ap-southeast-1
+   aws sqs create-queue --endpoint-url http://localhost:4576 --queue-name inbound --region ap-southeast-1
    ```
 
 1. Run this command to create the DynamoDB table:

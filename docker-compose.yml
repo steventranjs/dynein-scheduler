@@ -4,5 +4,7 @@ services:
   scheduler:
     build:
       context: .
+    env_file: .env
     ports: 
       - 8080:28080
+      - 8081:28081
